@@ -1,0 +1,95 @@
+*
+{
+    margin : 0;
+    padding : 0;
+    box-sizing:border-box;
+    
+}
+
+.cont{
+    width : 100%;
+    min-height : 100vh;
+    background: linear-gradient(120deg,#420,#90bafc);
+    background-size:contain;
+    padding : 8px;
+    color : antiquewhite;
+    
+
+}
+
+.calc
+{
+    width : 100%;
+    max-height : 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:15% ;
+    
+}
+
+h1{
+    font-size : 50px;
+    margin-left: 55px;
+    text-shadow: 10px 10px 10px goldenrod;
+}
+
+.box
+{
+    margin : 35px 15px;
+    padding : 30px 15px;
+    border-radius: 20px;
+    display : flex;
+    background : rgba(200,200,200,0.4);
+    align-items: center;
+    box-shadow : 12px 12px 12px 0px  goldenrod ;
+    
+}
+
+.box input{
+    flex: 1;
+    margin-right : 15px;
+    padding : 10px,10px;
+    border : 0;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor : pointer;
+    
+}
+
+button{
+    padding : 15px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    color : antiquewhite;
+    background-color: #573;
+    box-shadow : 8px 8px 8px 0px  #356;
+    cursor : pointer;
+
+}
+
+.box input ::-webkit-calender-picker-indicator{
+    top : 0;
+    left : 0;
+    right : 0;
+    bottom : 0;
+    width : auto;
+    height: auto;
+    position : absolute;
+    background-position: calc(100%-5px);
+    background-size: 20px;
+    cursor: pointer;
+}
+
+h3{
+    font-size : 20px;
+    margin-left: 55px;
+    text-shadow: 10px 10px 10px goldenrod;
+}
+
+.calc h1 span
+{
+    font-size : 36px;
+    color : black;
+    text-shadow: 10px 10px 10px blanchedalmond;   
+    padding : 10px;
+}
